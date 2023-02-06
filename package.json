@@ -1,0 +1,19 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "sockets intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciussantb/sockets.git"
+  },
+  "author": "santiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciussantb/sockets/issues"
+  },
+  "homepage": "https://github.com/viniciussantb/sockets#readme"
+}
