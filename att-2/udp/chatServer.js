@@ -19,9 +19,6 @@ socket.on('message', (msg, rinfo) => {
     if (clientSocketsId.length > 1) {
         clientSocketsId.forEach(id => {
             const [ip, port] = id.split(':');
-            console.log('ip: ', ip);
-            console.log('port: ', port);
-            console.log('rinfo: ', rinfo)
             if (ip !== rinfo.address | +port !== rinfo.port) {
                 socket.send(serverMsg.toString(), port, ip);
             }
